@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chillax</title>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link href="./main.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+     <link rel="stylesheet" href="navbar.css">
+     
+     <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="intro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Dancing+Script:wght@700&family=Lobster&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbed8cc29.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!</h2></noscript>
+<div id="main-content" class="container">
+
+    <div class="row" id="loginarea">
+        <div class="col-md-12" >
+            <br><br> <br> <br><h1 class="centered">Chillax-Chat</h1>
+            <br>
+            <input id="username" class="form-control" type="text" placeholder="We respect your anonymity, enter any random word or your name(if you prefer)..We will be really happy to talk to you!"/>
+            <br>
+            <button id="connect" class="btn btn-sm btn-primary">connect</button>
+        </div>
+       </div>
+       <div class="row" id="chatarea">
+        <div class="col-md-6" >
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="connect">getOut?</label>
+                    <button id="disconnect" class="btn btn-sm btn-primary" type="submit" disabled="disabled">Disconnect
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+            <div id="chatareaX" class="col-sm-9 message_section">
+            <!--new_message_head-->
+            <div class="chat_area">
+            <ul id="chatX" class="list-unstyled">
+                <li class="left clearfix">
+                        <span class="chat-img1 pull-left">
+                        <img  alt="User Avatar" class="img-circle">
+                        </span>
+                        <div class="chat-body1 clearfix">
+                           <p></p>
+                           <div class="chat_time pull-right"></div>
+                        </div>
+                   
+            </ul>
+            </div><!--chat_area-->
+        <div class="message_write">
+            <textarea id="messageX" class="form-control" placeholder="type a message"></textarea>
+            <div class="clearfix"></div>
+            <div class="chat_bottom">
+                    <button  id="send" class="pull-right btn btn-success">Send</button>
+                </div>
+            </div>
+            </div>
+             
+
+
+
+</div>
+</body>
+</html>
